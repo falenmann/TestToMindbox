@@ -1,0 +1,3 @@
+D:\test\TestToMindbox\TestToMindbox\obj\Debug\TestToMindbox.csproj.AssemblyReference.cache
+D:\test\TestToMindbox\TestToMindbox\obj\Debug\TestToMindbox.csproj.SuggestedBindingRedirects.cache
+D:\test\TestToMindbox\TestToMindbox\obj\Debug\TestToMindbox.csproj.CoreCompileInputs.cache
