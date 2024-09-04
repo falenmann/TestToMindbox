@@ -45,7 +45,7 @@ namespace TestToMindbox
         {
             double[] sides = { SideA, SideB, SideC };
             Array.Sort(sides);
-            return Math.Abs(sides[2] * sides[2] - (sides[0] * sides[0] + sides[1] * sides[1])) < 1e-10;
+            return Math.Abs(sides[2] * sides[2] - (sides[0] * sides[0] + sides[1] * sides[1])) < 1e-8; // 1e-8 используется для роверки, надо учесть возможные погрешности при вычислениях с плавающей точкой
         }
         
     }
