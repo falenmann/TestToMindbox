@@ -69,3 +69,12 @@ namespace TestToMindbox
     }
     
 }
+/*
+ * SELECT p.ProductName, c.CategoryName
+ * FROM Products p
+ * LEFT JOIN PruductCatigories pc ON p.ProductId = pc.ProductID
+ * LEFT JOIN Catigory c ON pc.CategoryID = c.CategoryID
+ * Где Products таблица с продуктами
+ * Categories таблица с катигориями
+ * ProductCategories связывающая их табличка
+ */
